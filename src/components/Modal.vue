@@ -60,7 +60,7 @@
 		margin-top: 120px;
 		/* margin-top: 100px; */
 		width: 90%;
-		max-height: 450px;
+		max-height: 500px;
 		min-width: 250px;
 		max-width: 400px;
 		background: var(--neutral-color-dark);
