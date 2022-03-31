@@ -78,7 +78,7 @@
 		justify-content: space-between;
 		align-items: center;
 		background-color: var(--neutral-color-dark);
-		padding: 0 1em;
+		padding: 0;
 		height: 50px;
 		margin-bottom: 1em;
 		border-bottom: 1px solid var(--neutral-color);
@@ -131,18 +131,18 @@
 	.header-left {
 		display: flex;
 		justify-content: left;
-		width: 72px;
+		/* width: 72px; */
 	}
 
 	.header-right {
 		display: flex;
 		justify-content: right;
-		width: 72px;
+		/* width: 72px; */
 	}
 
 	@media only screen and (max-width: 425px) {
 		h1 {
-			font-size: 1.25rem;
+			font-size: 1.5em;
 		}
 	}
 </style>
