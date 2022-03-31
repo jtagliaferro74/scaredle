@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+		<title>Scaredle | A Daily Horror Game</title>
+		<meta name="title" content="Scaredle | A Daily Horror Game" />
+		<meta
+			name="description"
+			content="Guess the SCAREDLE in six tries. After each guess, you will learn the details of how one character in the movie met their end. Good Luck!"
+		/>
+		<meta
+			name="keywords"
+			content="Horror, Scary, Movie, Horror Movies, Scary Movies, Horror Genre, Game, Guessing Game, Entertainment, Scaredle"
+		/>
+		<!-- Facebook Meta data -->
+		<meta property="og:title" content="Scaredle | A Daily Horror Game" />
+		<meta
+			property="og:description"
+			content="Guess the SCAREDLE in six tries. After each guess, you will learn the details of how one character in the movie met their end. Good Luck!"
+		/>
+		<meta property="og:url" content="<%= BASE_URL %>" />
+		<meta property="og:image" content="<%= BASE_URL %>ogimage.jpg" />
+		<meta property="og:site_name" content="Scaredle" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="website" />
+
+		<!-- Twitter Meta data -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Scaredle | A Daily Horror Game" />
+		<meta
+			name="twitter:description"
+			content="Guess the SCAREDLE in six tries. After each guess, you will learn the details of how one character in the movie met their end. Good Luck!"
+		/>
+		<meta name="twitter:site" content="@jtagliaferro74" />
+		<meta name="twitter:image" content="<%= BASE_URL %>tcimage.jpg" />
+	</head>
+	<body>
+		<noscript>
+			<strong
+				>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly
+				without JavaScript enabled. Please enable it to continue.</strong
+			>
+		</noscript>
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
+	</body>
 </html>

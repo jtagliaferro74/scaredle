@@ -8,10 +8,22 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@linusborg/vue-ko-fi-button": "^0.1.0",
+    "@meforma/vue-toaster": "^1.3.0",
+    "@popperjs/core": "^2.11.4",
+    "@smithalan2/vue-countdown": "^1.0.2",
+    "charts.css": "^0.9.0",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "gh-pages": "^3.2.3",
+    "popper.js": "^1.16.1",
+    "vue": "^3.0.0",
+    "vue-ko-fi-button": "^0.1.0",
+    "vue-select": "^4.0.0-beta.3",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
+    "@iconify/vue": "^3.1.4",
     "@vue/cli-plugin-babel": "~4.5.15",
     "@vue/cli-plugin-eslint": "~4.5.15",
     "@vue/cli-service": "~4.5.15",

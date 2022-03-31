@@ -1,0 +1,10 @@
+:root {
+	--neutral-color-dark: #121213;
+	--neutral-color: #3a3a3c;
+	--neutral-color-light: hsl(240, 2%, 65%);
+	--neutral-color-lightest: hsl(240, 2%, 95%);
+	--primary-color-light: #e70000;
+	--primary-color: #c80000;
+	--primary-color-dark: #aa0000;
+	--primary-color-darkest: #8d0000;
+}
