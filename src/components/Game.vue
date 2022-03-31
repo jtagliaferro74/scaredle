@@ -646,8 +646,8 @@
 						} else {
 							str += "✅";
 						}
-						str += "\n";
 					}
+					str += "\n";
 				});
 
 				str += "https://scaredle.com";
