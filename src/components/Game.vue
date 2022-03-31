@@ -352,7 +352,12 @@
 									>Wordle</a
 								>
 								created by
-								<a target="_blank" rel="noopener noreferrer" href="">Josh Wardle</a>
+								<a
+									target="_blank"
+									rel="noopener noreferrer"
+									href="https://twitter.com/powerlanguish"
+									>Josh Wardle</a
+								>
 							</p>
 							<p>
 								Special thanks to
