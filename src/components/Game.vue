@@ -228,8 +228,6 @@
 				label="title"
 				:options="options"
 				:get-option-label="(option) => option.title"
-				append-to-body
-				:calculate-position="withPopper"
 				@dropdown:appending="({ el }) => el.classList.add('my-custom-select')"
 			>
 				<template #option="{ title, year }">
@@ -238,7 +236,6 @@
 					<cite>{{ year }}</cite>
 				</template>
 			</v-select>
-			<!-- <input type="text" placeholder="Guess a movie..." /> -->
 			<button
 				v-if="gamestate === 'start' || gamestate === 'playing'"
 				class="game-btn"
@@ -795,17 +792,13 @@
 		background-color: #2b2b2b;
 		border: 1px solid var(--neutral-color);
 		border-radius: 0.25em;
-		/* padding: 0.5rem; */
-		/* width: 100%; */
 		margin: 0;
 		max-width: 72px;
 		width: 100%;
-		/* width: 100%; */
 	}
 	.instruction_guesses,
 	#guesses {
 		display: grid;
-		/* grid-template-columns: 5fr 1.5fr 1fr; */
 		grid-template-columns: minmax(0, 5fr) 1.5fr 1fr;
 		grid-gap: 0.25em;
 		margin-bottom: 1em;
@@ -831,7 +824,6 @@
 
 	.guess_title--correct,
 	.guess_year--correct {
-		/* color: #13a500; */
 		color: #17c400;
 	}
 
@@ -854,7 +846,6 @@
 		display: flex;
 		justify-content: center;
 		font-size: 14px;
-		/* height: 2rem; */
 		height: 2.3em;
 	}
 
@@ -947,12 +938,12 @@
 		--vs-dropdown-color: white;
 		--vs-dropdown-option-color: white;
 
-		--vs-selected-bg: #664cc3;
+		--vs-selected-bg: var(--primary-color);
 		--vs-selected-color: #eeeeee;
 
 		--vs-search-input-color: #eeeeee;
 
-		--vs-dropdown-option--active-bg: #664cc3;
+		--vs-dropdown-option--active-bg: var(--primary-color);
 		--vs-dropdown-option--active-color: #eeeeee;
 	}
 
