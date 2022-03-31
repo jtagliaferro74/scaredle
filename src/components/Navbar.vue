@@ -140,7 +140,7 @@
 		width: 72px;
 	}
 
-	@media only screen and (max-width: 360px) {
+	@media only screen and (max-width: 425px) {
 		h1 {
 			font-size: 1.25rem;
 		}

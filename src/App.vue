@@ -70,9 +70,9 @@
 
 	/* body .vs__dropdown-menu */
 
-	@media only screen and (max-width: 360px) {
+	@media only screen and (max-width: 425px) {
 		body {
-			font-size: 10pt;
+			font-size: 12pt;
 		}
 	}
 </style>

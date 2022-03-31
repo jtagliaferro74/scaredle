@@ -816,11 +816,12 @@
 		margin: auto;
 		background-color: transparent;
 		border: 1px solid var(--neutral-color);
-		padding: 0.5em 0;
+		padding: 0;
 		display: flex;
 		justify-content: center;
-		font-size: 14px;
-		max-height: 2rem;
+		align-items: center;
+		font-size: 16px;
+		height: 2.3em;
 		transition: all 0.2s ease-out;
 	}
 
@@ -839,7 +840,7 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		padding: 0 0.25em;
+		padding: 0;
 	}
 
 	.empty-guess {
@@ -853,7 +854,8 @@
 		display: flex;
 		justify-content: center;
 		font-size: 14px;
-		height: 2rem;
+		/* height: 2rem; */
+		height: 2.3em;
 	}
 
 	input {
@@ -879,6 +881,8 @@
 		border: 2px solid var(--primary-color);
 		border-radius: 4px;
 		transition: background-color 0.2s ease-out;
+		height: 2.5em;
+		font-size: 16px;
 	}
 
 	.game-btn--share,
@@ -896,7 +900,7 @@
 		z-index: 999;
 		position: absolute;
 		width: 100%;
-		height: 90%;
+		height: 97%;
 		top: 0;
 		left: 0;
 		background-color: var(--neutral-color-dark);
@@ -1169,7 +1173,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 360px) {
+	@media only screen and (max-width: 425px) {
 		.death svg {
 			height: 48px;
 			width: 48px;
