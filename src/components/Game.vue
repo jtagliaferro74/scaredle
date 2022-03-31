@@ -419,8 +419,8 @@
 	import ToggleSwitch from "./ToggleSwitch.vue";
 	import { Icon } from "@iconify/vue";
 	import { createPopper } from "@popperjs/core";
-	import movies from "../random_movies.json";
-	import movieOptions from "../sorted_movies.json";
+	import movies from "./random_movies.json";
+	import movieOptions from "./sorted_movies.json";
 	import "charts.css";
 	export default {
 		components: {
@@ -440,7 +440,7 @@
 				showSupport: false,
 				showNames: this.$store.state.settings.showNames,
 				currentGameNumber: 0,
-				todaysMovie: {},
+				todaysMovie: movies[this.getMovieIndex(this.currentGameNumber)],
 				guesses: this.$store.state.currentGame.guesses,
 				currentGuess: null,
 				options: movieOptions,
