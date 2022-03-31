@@ -445,7 +445,6 @@
 				currentGuess: null,
 				options: movieOptions,
 				placement: "top",
-				fuck: false,
 			};
 		},
 		created() {
